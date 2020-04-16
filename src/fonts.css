@@ -1,0 +1,32 @@
+/* Open Sans Font Face */
+
+@font-face {
+    font-family: 'Open Sans'; 
+    src: url('https://ik.imagekit.io/edwinb24/burger_builder_app/fonts/opensans-regular_Ggj-m6MsP.woff2') format('woff2'),
+        url('https://ik.imagekit.io/edwinb24/burger_builder_app/fonts/opensans-regular_ffHy7T4a_h.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://ik.imagekit.io/edwinb24/burger_builder_app/fonts/opensans-italic_nVxW2UHMNC.woff2') format('woff2'),
+        url('https://ik.imagekit.io/edwinb24/burger_builder_app/fonts/opensans-italic_EByA8mt-_.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://ik.imagekit.io/edwinb24/burger_builder_app/fonts/opensans-bold_Z0EWOH9qh.woff2') format('woff2'),
+        url('https://ik.imagekit.io/edwinb24/burger_builder_app/fonts/opensans-bold_Z5uywcUSP.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Open Sans';
+    src: url('https://ik.imagekit.io/edwinb24/burger_builder_app/fonts/opensans-bolditalic_TGlaVsHSDO.woff2') format('woff2'),
+        url('https://ik.imagekit.io/edwinb24/burger_builder_app/fonts/opensans-bolditalic_EHpdvAL9yN.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
