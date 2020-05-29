@@ -3,6 +3,7 @@ import React, {Fragment} from 'react'
 import Button from "./../../UI/Button/Button"
 
 const OrderSummary = (props) => {
+
     const ingredientSummary = Object.keys(props.ingredients)
     .map(igKey => 
         <li key={igKey}>
@@ -12,6 +13,7 @@ const OrderSummary = (props) => {
             : {props.ingredients[igKey]}
         </li>
     )
+
     return (   
         <Fragment>
             <h3>Your Order</h3>
